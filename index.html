@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="HYUN NEUNG" />
+    <meta
+      name="description"
+      content="웹퍼블리셔 김현능의 첫번째 포트폴리오입니다."
+    />
+    <meta
+      name="keywords"
+      content="김현능, 포트폴리오, 웹퍼블리셔, 웹프론트엔드, 웹프론트엔드 포트폴리오, 퍼블리셔, 웹퍼블리셔 포트폴리오, 김현능포폴, 현능 포트폴리오, webs, Portfolio, Web Publisher"
+    />
+    <title>👈💗현능 포트폴리오</title>
+    <!--style-->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/prism.css" />
+
+    <!--favicon-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/icon/site.webmanifest" />
+  </head>
+  <body>
+    <div class="progress">
+      <span class="progress-text">0</span>
+    </div>
+    <div class="infor">
+      scrollTop() : <span class="wScroll">0</span><br />
+      offset().top : <span class="wOffset">0</span>
+    </div>
+
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fab fa-diaspora"></i>
+        <a href="#section1">Hyunneung</a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item" data-link="#section1">Home</li>
+        <li class="navbar__menu__item" data-link="#section2">About</li>
+        <li class="navbar__menu__item" data-link="#section5">Skills</li>
+        <li class="navbar__menu__item" data-link="#section6">My work</li>
+        <li class="navbar__menu__item" data-link="#section9">Contact</li>
+        <li class="navbar__menu__item"><a href="https://kim-gemma.github.io/#/board/free" target="blank">Community</a></li>
+      </ul>
+       <!-- Toggle button -->
+       <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!--<header id="header">
+      <span class="title">PORTFOLIO</span>
+      <div class="logo">
+        <a href="#section1">
+          <img
+            src="assets/img/kimhyunneung.png"
+            class="header_img"
+            alt="kimhyunneung"
+          />
+        </a>
+      </div>
+      <div class="contact">
+        <a href="#form">Contact me anytime</a>
+      </div>
+    </header>
+     //header -->
+
+    <div id="contents">
+      <section id="section1">
+        <div class="container">
+          <div class="sec1">
+            <div class="main-text">
+              <span class="t1">안녕하세요!<br />웹퍼블리셔</span>
+              <h1>Hello World!</h1>
+              <p>김현능입니다.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //section1 -->
+
+      <section id="section2">
+        <div class="container">
+          <div class="sec2">
+            <div class="main1">
+              <div class="main_i1">
+                <div class="mi"></div>
+              </div>
+              <div class="main_t1">
+                <div class="mt">
+                  안녕하세요 퍼블리셔가 되기 위해 새롭게 도전하는
+                  <strong>김현능</strong> 입니다. 소통의 즐거움, 새로운 배움의
+                  즐거움, 성과달성의 즐거움이 저를 이끌어 퍼블리셔 직무를
+                  선택하였습니다.<br />
+                  그리고 코딩의 즐거움을 알게 되어 웹 퍼블리셔 과정을
+                  수료하였습니다.
+                </div>
+              </div>
+            </div>
+            <div class="main_t3">
+              <span class="s1">hyunneung's portfolio</span>
+              <span class="s2">hyunneung's portfolio</span>
+              <span class="s3">hyunneung's portfolio</span>
+              <span class="s4">hyunneung's portfolio</span>
+            </div>
+            <div class="main2">
+              <div class="main_i2">
+                <div class="mi2"></div>
+              </div>
+              <div class="main_t2">
+                <div class="mt2">
+                  또한 새로운 변화가 끊임없이 일어나는 웹 환경에서 웹 트렌드를
+                  따라가기 위해 꾸준히 study 모임을 통해 부족한 부분과 유행하는
+                  기술들을 공부하며 웹페이지를 제작하고 있습니다. 앞으로
+                  복잡하고 어려운 일에 대해서 포기하지 않고 끝까지 해결하고자
+                  하는 자세와 적극적인 마음가짐으로 성장하는
+                  <strong>웹 퍼블리셔</strong>가 되겠습니다.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //section2 -->
+
+      <section id="section3">
+        <div class="container"></div>
+        <div class="sec3">
+          <div class="marquee">
+            <span class="marquee_content">
+              <span class="list-inline">
+                <span>html5. <i>html5.</i> <i>html5.</i></span>
+                <span>html5. <i>html5.</i> <i>html5.</i></span>
+              </span>
+              <span class="list-inline">
+                <span>html5. <i>html5.</i> <i>html5.</i></span>
+                <span>html5. <i>html5.</i> <i>html5.</i></span>
+              </span>
+            </span>
+            <span class="marquee_content">
+              <span class="list-inline2">
+                <span>css3. <i>css3.</i> <i>css3.</i></span>
+                <span>css3. <i>css3.</i> <i>css3.</i></span>
+              </span>
+
+              <span class="list-inline2">
+                <span>css3. <i>css3.</i> <i>css3.</i></span>
+                <span>css3. <i>css3.</i> <i>css3.</i></span>
+              </span>
+            </span>
+            <span class="marquee_content">
+              <span class="list-inline3">
+                <span>jquery. <i>jquery.</i> <i>jquery.</i></span>
+                <span>jquery. <i>jquery.</i> <i>jquery.</i></span>
+              </span>
+              <span class="list-inline3">
+                <span>jquery. <i>jquery.</i> <i>jquery.</i></span>
+                <span>jquery. <i>jquery.</i> <i>jquery.</i></span>
+              </span>
+            </span>
+            <span class="marquee_content">
+              <span class="list-inline4">
+                <span>javascript. <i>javascript.</i> <i>javascript.</i></span>
+                <span>javascript. <i>javascript.</i> <i>javascript.</i></span>
+              </span>
+              <span class="list-inline4">
+                <span>javascript. <i>javascript.</i> <i>javascript.</i></span>
+                <span>javascript. <i>javascript.</i> <i>javascript.</i></span>
+              </span>
+            </span>
+          </div>
+        </div>
+      </section>
+      <!-- //section3 -->
+
+      <section id="section4" class="active">
+        <div class="container">
+          <div class="sec4">
+            <div class="mtext">
+              <span class="t4">portfolio</span>
+              <h3>Activities</h3>
+              <p>
+                안녕하세요. 다양한 협업부서와 적극적이고 긍정적으로
+                <br />커뮤니케이션이 가능하고, 새로운 도전에 대해 두려워하지
+                않습니다. <br />문제점만을 바라보지 않고 모든 가능성에 대해 열린
+                태도로 토론하며,결정된 사안은 긍정적이고 적극적인자세로 실행으로
+                옮기는<br /><strong>김현능</strong> 입니다.
+              </p>
+            </div>
+            <div class="cont">
+              <ul>
+                <li>
+                  <div class="bubble_container">
+                    <svg
+                      class="bubble-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 491.6 363.11"
+                    >
+                      <path
+                        class="text-copy"
+                        d="M473.87,321.81V212.88L497,202.15A8.38,8.38,0,0,0,497,187L262.4,75.26a8.38,8.38,0,0,0-7.14,0L15.05,187A8.38,8.38,0,0,0,15,202.12l48.29,23v74.72a8.38,8.38,0,0,0,4.85,7.6L252.47,393a8.38,8.38,0,0,0,7.06,0l184.35-85.6a8.38,8.38,0,0,0,4.85-7.6V224.58l8.38-3.9V321.81c-16.19,6-27.93,28.88-27.93,57.09,0,32.89,15.94,58.65,36.31,58.65s36.31-25.76,36.31-58.65C501.8,350.69,490.05,327.78,473.87,321.81ZM113.42,310,80,294.48V233.09L113.42,249Zm64.37,29.89-47.61-22.11V257l47.61,22.68Zm67,31.12-50.28-23.34v-60l50.28,23.94Zm67-20.75L261.59,373.6v-62l50.27-23.39Zm64.37-29.89-47.61,22.11v-62l47.61-22.15ZM432,294.48l-39,18.1V250.5l39-18.13Zm16.76-88.39L432,213.89l-46.31,21.54-8.09,3.76-123.9,57.63-.42.2-.43-.21L80,214.53l-16.76-8-25-11.91L258.75,92.08l215,102.38ZM465.49,420.8c-8.12,0-17.08-13.87-19.12-33.52H484.6C482.56,406.93,473.6,420.8,465.49,420.8Zm-19.12-50.28c2-19.65,11-33.52,19.12-33.52s17.07,13.87,19.11,33.52Z"
+                        transform="translate(-10.2 -74.45)"
+                        style="fill: url(#linear-gradient)"
+                      ></path>
+                      <path
+                        d="M370.06,186.68l-1.12-.51L259.63,136a5.61,5.61,0,0,0-4.69,0L147.13,186.17,143.22,188a5.59,5.59,0,0,0-.05,10.11l10.15,4.83,99,47.13a5.51,5.51,0,0,0,4.78,0l100-47.14,13-6.12a5.59,5.59,0,0,0-.05-10.13ZM254.72,238.84,179.3,202.93l-20.61-9.82,14.93-6.94,83.69-38.93,84.84,38.93,12.33,5.65-23.57,11.11Z"
+                        transform="translate(-10.2 -74.45)"
+                        style="fill: url(#linear-gradient)"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h4>
+                    부산외국어대학교<br />
+                    동남아시어학부<br />
+                    (미얀마어 전공)
+                  </h4>
+                </li>
+                <li>
+                  <div class="bubble_container">
+                    <svg
+                      class="bubble-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 338.95 383.53"
+                    >
+                      <g>
+                        <g>
+                          <path
+                            class="text-copy"
+                            d="M275,330.82h-87.8v-17H258V17H41.28A24.3,24.3,0,0,0,17,41.28V313.82H90.2v17H0V41.28A41.33,41.33,0,0,1,41.28,0H308.46V0c22.46.94,29.76,20.37,30.47,30.77l0,.57v69H275Zm0-247.41H322V31.75c-.29-2.88-2.26-14.75-15.2-14.75h-11c-17.52,0-20.3,11.75-20.73,14.88Z"
+                            style="fill: url(#linear-gradient)"
+                          ></path>
+                          <rect
+                            x="58.74"
+                            y="60.74"
+                            style="fill: url(#linear-gradient)"
+                          ></rect>
+                          <rect
+                            x="80.55"
+                            y="99.66"
+                            style="fill: url(#linear-gradient)"
+                            height="17"
+                            width="116.34"
+                          ></rect>
+                          <rect
+                            x="53.18"
+                            y="137.73"
+                            style="fill: url(#linear-gradient)"
+                            height="17"
+                            width="168.52"
+                          ></rect>
+                          <rect
+                            x="80.55"
+                            y="176.22"
+                            style="fill: url(#linear-gradient)"
+                            height="17"
+                            width="116.34"
+                          ></rect>
+                          <path
+                            class="text-copy"
+                            d="M138.72,354.47a70.07,70.07,0,1,1,55.22-26.91A69.69,69.69,0,0,1,138.72,354.47Zm0-123.18a53.16,53.16,0,0,0-53.09,53.09,53.09,53.09,0,1,0,106.18,0A53.15,53.15,0,0,0,138.72,231.29Z"
+                            style="fill: url(#linear-gradient)"
+                          ></path>
+                          <path
+                            d="M138.72,324.53a40.13,40.13,0,1,1,31.63-15.41A39.93,39.93,0,0,1,138.72,324.53Zm0-63.3a23.18,23.18,0,0,0-23.15,23.15,23.15,23.15,0,1,0,46.3,0A23.18,23.18,0,0,0,138.72,261.23Z"
+                            style="fill: url(#linear-gradient)"
+                          ></path>
+                          <path
+                            d="M95.54,383.53A17.18,17.18,0,0,1,78.4,366.35v-44h17v44a.15.15,0,0,0,.07.14.16.16,0,0,0,.16,0l42.76-11.39,44.73,9.42V322.32h17v43.14a16.28,16.28,0,0,1-19.62,15.92l-41.65-8.78L99.94,383A17.48,17.48,0,0,1,95.54,383.53Z"
+                            style="fill: url(#linear-gradient)"
+                          ></path>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                  <h4>
+                    ICDL Master,<br />
+                    컴퓨터 활용 능력 2급,<br />
+                    토익 645점
+                  </h4>
+                </li>
+                <li>
+                  <div class="bubble_container">
+                    <svg
+                      class="bubble-icon"
+                      viewBox="0 0 512 512"
+                      width="512"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <linearGradient
+                        id="linear-gradient"
+                        gradientUnits="userSpaceOnUse"
+                        x1="256"
+                        x2="256"
+                        y1="432"
+                        y2="80"
+                      >
+                        <stop offset="0" stop-color="#12c0e7"></stop>
+                        <stop offset=".7" stop-color="#7684f6"></stop>
+                        <stop offset="1" stop-color="#8356e8"></stop>
+                      </linearGradient>
+                      <path
+                        class="text-copy"
+                        d="m472 128c13.230469 0 24-10.769531 24-24v-80c0-13.230469-10.769531-24-24-24h-112c-13.230469 0-24 10.769531-24 24v80c0 13.230469 10.769531 24 24 24h24v16h-16v16h40v80h-33.015625c-6.382813-6.230469-14.242187-11-23.039063-13.625.039063-.808594.054688-1.589844.054688-2.375 0-35.289062-28.710938-64-64-64-21.894531 0-42.246094 11.390625-53.902344 29.609375-8.210937-3.6875-17.089844-5.609375-26.097656-5.609375-26.550781 0-50.457031 16.734375-59.808594 41.28125-6.078125 1.304688-11.742187 3.640625-16.886718 6.71875h-59.304688v-24h32c13.230469 0 24-10.769531 24-24v-160c0-13.230469-10.769531-24-24-24h-80c-13.230469 0-24 10.769531-24 24v160c0 13.230469 10.769531 24 24 24h32v40h58.289062c-3.402343 4.855469-6.042968 10.214844-7.777343 16h-34.511719v88h-32c-13.230469 0-24 10.769531-24 24v72h-16v24c0 13.230469 10.769531 24 24 24h128c13.230469 0 24-10.769531 24-24v-24h-16v-72c0-13.230469-10.769531-24-24-24h-48v-72h16c0 30.871094 25.128906 56 56 56h176c28.152344 0 51.457031-20.910156 55.359375-48h32.640625v64h-56v144h128v-144h-56v-80h-48.671875c-.832031-5.632812-2.558594-10.992188-4.976563-16h37.648438v-96h40v-16h-16v-16zm-360 0h-96v-80h96zm-88-112h80c4.414062 0 8 3.585938 8 8v8h-96v-8c0-4.414062 3.585938-8 8-8zm-8 168v-40h96v40c0 4.414062-3.585938 8-8 8h-80c-4.414062 0-8-3.585938-8-8zm144 288c0 4.414062-3.585938 8-8 8h-128c-4.414062 0-8-3.585938-8-8v-8h144zm-16-96v72h-112v-72c0-4.414062 3.585938-8 8-8h96c4.414062 0 8 3.585938 8 8zm240 104v-48h96v48zm96-64h-96v-48h96zm-144-96h-176c-22.054688 0-40-17.945312-40-40 0-20.222656 15.136719-37.28125 35.199219-39.679688l5.25-.632812 1.480469-5.078125c5.917968-20.378906 24.871093-34.609375 46.070312-34.609375 8.832031 0 17.503906 2.480469 25.105469 7.160156l7.636719 4.710938 3.808593-8.136719c7.875-16.855469 24.929688-27.734375 43.449219-27.734375 26.472656 0 48 21.527344 48 48 0 2.207031-.199219 4.558594-.632812 7.398438l-1.207032 7.914062 7.910156 1.199219c19.34375 2.953125 33.929688 19.929687 33.929688 39.488281 0 22.054688-17.945312 40-40 40zm24-304h112c4.414062 0 8 3.585938 8 8v56h-128v-56c0-4.414062 3.585938-8 8-8zm-8 88v-8h128v8c0 4.414062-3.585938 8-8 8h-112c-4.414062 0-8-3.585938-8-8zm80 40h-32v-16h32zm0 0"
+                      />
+                      <path d="m400 384h16v16h-16zm0 0" />
+                      <path d="m448 448h16v16h-16zm0 0" />
+                      <path d="m432 384h32v16h-32zm0 0" />
+                      <path d="m400 448h32v16h-32zm0 0" />
+                    </svg>
+                  </div>
+                  <h4>
+                    코딩하기,<br />
+                    산책, 조깅, 등산,<br />
+                    새로운 것 배우기
+                  </h4>
+                </li>
+                <li>
+                  <div class="bubble_container">
+                    <svg
+                      class="bubble-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      viewBox="0 0 512 512"
+                      width="512"
+                      height="512"
+                    >
+                      <path
+                        class="text-copy"
+                        d="M468.43,116.47c-20.951-27.931-67.711-35.652-128.887-21.514-1.312-3.145-2.667-6.234-4.064-9.243a31.984,31.984,0,0,0-35.7-51.282C286.06,22.21,271.358,16,256,16c-17.639,0-34.385,8.137-49.772,24.185C193.338,53.627,182,72.04,172.455,94.955,111.279,80.819,64.52,88.54,43.571,116.469,19.742,148.233,33.374,200.092,79.938,256q-3.81,4.575-7.377,9.17a31.977,31.977,0,0,0-31.646,52.954c-12.76,31.346-11.878,58.02,2.655,77.4,14.094,18.789,39.858,28.436,73.84,28.435,16.534,0,35.021-2.293,55.045-6.921,9.543,22.915,20.883,41.329,33.773,54.771C221.615,487.863,238.361,496,256,496s34.385-8.137,49.772-24.185c12.888-13.441,24.227-31.851,33.77-54.763q6.419,1.483,12.679,2.652a32,32,0,0,0,63.075,2.965c23.9-3.246,42.2-12.549,53.133-27.138,23.828-31.763,10.2-83.622-36.365-139.531C478.627,200.09,492.257,148.232,468.43,116.47Zm-12.8,9.6c18.536,24.709,5.376,69.34-34.231,117.694a464.789,464.789,0,0,0-57.492-52.894c-3.758-29.113-10.125-56.789-18.577-80.817C398.238,98.253,439.125,104.066,455.63,126.071Zm-125.9,271.985a412.988,412.988,0,0,1-55.118-19.685,567.178,567.178,0,0,0,50.432-29.415q10.537-6.891,20.688-14.19A368.316,368.316,0,0,1,329.734,398.056Zm-147.468,0a368.421,368.421,0,0,1-16-63.291q10.128,7.275,20.689,14.19a566.986,566.986,0,0,0,50.432,29.416A413.069,413.069,0,0,1,182.266,398.056Zm0-284.112a412.988,412.988,0,0,1,55.118,19.685,567.178,567.178,0,0,0-50.432,29.415q-10.538,6.891-20.688,14.19A368.316,368.316,0,0,1,182.266,113.944Zm13.442,221.62c-11.216-7.334-22.14-15.059-32.532-22.988a505.5,505.5,0,0,1,0-113.152c10.392-7.929,21.317-15.655,32.532-22.989A544.9,544.9,0,0,1,256,142.216a544.7,544.7,0,0,1,60.292,34.22c11.216,7.334,22.14,15.059,32.532,22.988A501.517,501.517,0,0,1,352,256a501.451,501.451,0,0,1-3.176,56.576c-10.392,7.929-21.317,15.655-32.532,22.989A544.9,544.9,0,0,1,256,369.784,544.7,544.7,0,0,1,195.708,335.564Zm-49.965-36.889A431.841,431.841,0,0,1,101.111,256a432.351,432.351,0,0,1,44.633-42.68C144.594,227.363,144,241.648,144,256S144.594,284.632,145.743,298.675ZM329.734,113.944a368.421,368.421,0,0,1,16,63.291q-10.128-7.275-20.689-14.19a566.986,566.986,0,0,0-50.432-29.416A413.069,413.069,0,0,1,329.734,113.944Zm36.523,99.381A431.841,431.841,0,0,1,410.889,256a432.351,432.351,0,0,1-44.633,42.68C367.406,284.637,368,270.352,368,256S367.406,227.368,366.257,213.325ZM328,64a16,16,0,1,1-16-16A16.019,16.019,0,0,1,328,64ZM256,32c10.468,0,20.791,4.158,30.772,12.349a31.98,31.98,0,0,0,35.094,50.087q1.014,2.239,2,4.53A444.147,444.147,0,0,0,256,124.483a444.153,444.153,0,0,0-67.877-25.522C206.362,56.276,230.834,32,256,32ZM56.37,126.07c16.505-22,57.39-27.818,110.3-16.016-8.45,24.024-14.817,51.694-18.575,80.807a465.419,465.419,0,0,0-57.494,52.9C50.994,195.412,37.833,150.78,56.37,126.07ZM64,280a16,16,0,1,1-16,16A16.019,16.019,0,0,1,64,280ZM56.371,385.931c-12.957-17.282-8.8-40.6-1.618-59.3A31.985,31.985,0,0,0,86.53,273.3q1.99-2.535,4.069-5.068a464.756,464.756,0,0,0,57.494,52.9c3.758,29.113,10.125,56.789,18.577,80.817C113.763,413.748,72.876,407.934,56.371,385.931ZM256,480c-25.166,0-49.638-24.276-67.877-66.962A444.014,444.014,0,0,0,256,387.517a444.27,444.27,0,0,0,67.877,25.522C305.638,455.724,281.166,480,256,480Zm128-48a16,16,0,1,1,16-16A16.019,16.019,0,0,1,384,432Zm71.627-46.067c-8.1,10.81-22.207,17.886-41.033,20.686a32,32,0,0,0-60.183-2.79q-4.485-.852-9.08-1.885c8.45-24.023,14.816-51.693,18.574-80.805a465.329,465.329,0,0,0,57.494-52.9C461.006,316.588,474.166,361.22,455.627,385.933ZM256,192a64,64,0,1,0,64,64A64.072,64.072,0,0,0,256,192Zm0,112a48,48,0,1,1,48-48A48.055,48.055,0,0,1,256,304Z"
+                        style="fill: url(#linear-gradient)"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h4>이마트24 (~2019)<br /></h4>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //section4 -->
+
+      <section id="section5" class="active">
+        <div class="container">
+          <h2 class="heading1">I can handle these skills</h2>
+          <div class="sec5">
+            <div class="bottle">
+              <h3 class="skill_name">HTML</h3>
+              <div class="shadow">bottle shadow</div>
+              <div class="box a bgc">
+                <div class="percent">
+                  <span class="percentNum" data-percent="95">95</span>%
+                </div>
+                <div
+                  class="water"
+                  data-color="#f3bbb6"
+                  data-class="red"
+                  style="transform: translate(0px, 5%)"
+                >
+                  <svg viewBox="0 0 560 20" class="water_wave back">
+                    <use xlink:href="#wave">
+                      <svg id="wave">
+                        <path
+                          d="M420,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C514,6.5,518,4.7,528.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H420z"
+                        ></path>
+                        <path
+                          d="M420,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C326,6.5,322,4.7,311.5,2.7C304.3,1.4,293.6-0.1,280,0c0,0,0,0,0,0v20H420z"
+                        ></path>
+                        <path
+                          d="M140,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C234,6.5,238,4.7,248.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H140z"
+                        ></path>
+                        <path
+                          d="M140,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C46,6.5,42,4.7,31.5,2.7C24.3,1.4,13.6-0.1,0,0c0,0,0,0,0,0l0,20H140z"
+                        ></path>
+                      </svg>
+                    </use>
+                  </svg>
+                  <svg viewBox="0 0 560 20" class="water_wave front">
+                    <use xlink:href="#wave"></use>
+                  </svg>
+                </div>
+                <div class="bobble"></div>
+              </div>
+            </div>
+            <div class="bottle">
+              <h3 class="skill_name">CSS</h3>
+              <div class="shadow">bottle shadow</div>
+              <div class="box b bgc">
+                <div class="percent">
+                  <span class="percentNum" data-percent="90">90</span>%
+                </div>
+                <div
+                  class="water"
+                  data-color="#f7d7b8"
+                  data-class="orange"
+                  style="transform: translate(0px, 10%)"
+                >
+                  <svg viewBox="0 0 560 20" class="water_wave back">
+                    <use xlink:href="#wave"></use>
+                  </svg>
+                  <svg viewBox="0 0 560 20" class="water_wave front">
+                    <use xlink:href="#wave"></use>
+                  </svg>
+                </div>
+                <div class="bobble"></div>
+              </div>
+            </div>
+            <div class="bottle">
+              <h3 class="skill_name">JQUERY</h3>
+              <div class="shadow">bottle shadow</div>
+              <div class="box c bgc">
+                <div class="percent">
+                  <span class="percentNum" data-percent="85">85</span>%
+                </div>
+                <div
+                  class="water"
+                  data-color="#fad9bd"
+                  data-class="yellow"
+                  style="transform: translate(0px, 15%)"
+                >
+                  <svg viewBox="0 0 560 20" class="water_wave back">
+                    <use xlink:href="#wave"></use>
+                  </svg>
+                  <svg viewBox="0 0 560 20" class="water_wave front">
+                    <use xlink:href="#wave"></use>
+                  </svg>
+                </div>
+                <div class="bobble"></div>
+              </div>
+            </div>
+            <div class="bottle">
+              <h3 class="skill_name">JAVASCRIPT</h3>
+              <div class="shadow">bottle shadow</div>
+              <div class="box d bgc">
+                <div class="percent">
+                  <span class="percentNum" data-percent="85">85</span>%
+                </div>
+                <div
+                  class="water"
+                  data-color="#e0f2e5"
+                  data-class="green"
+                  style="transform: translate(0px, 15%)"
+                >
+                  <svg viewBox="0 0 560 20" class="water_wave back">
+                    <use xlink:href="#wave"></use>
+                  </svg>
+                  <svg viewBox="0 0 560 20" class="water_wave front">
+                    <use xlink:href="#wave"></use>
+                  </svg>
+                </div>
+                <div class="bobble"></div>
+              </div>
+            </div>
+            <div class="bottle">
+              <h3 class="skill_name">PHOTOSHOP</h3>
+              <div class="shadow">bottle shadow</div>
+              <div class="box e bgc">
+                <div class="percent">
+                  <span class="percentNum" data-percent="95">95</span>%
+                </div>
+                <div
+                  class="water"
+                  data-color="#9a83dc"
+                  data-class="lightpurple"
+                  style="transform: translate(0px, 5%)"
+                >
+                  <svg viewBox="0 0 560 20" class="water_wave back">
+                    <use xlink:href="#wave"></use>
+                  </svg>
+                  <svg viewBox="0 0 560 20" class="water_wave front">
+                    <use xlink:href="#wave"></use>
+                  </svg>
+                </div>
+                <div class="bobble"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sec5_bg">
+          <div class="balloon">
+            <img src="assets/img/balloon.png" alt="balloon1" />
+            <img src="assets/img/balloon2.png" alt="balloon2" />
+          </div>
+          <div class="cloud">
+            <img src="assets/img/cloud.png" alt="cloud" />
+          </div>
+        </div>
+      </section>
+      <!-- //section5 -->
+
+      <section id="section6">
+        <div class="container">
+          <div class="sec6">
+            <div class="wtext">
+              <span class="t2">portfolio</span>
+              <h3>website</h3>
+              <p>
+                안녕하세요 이마트24에서 근무하며 성과달성의 즐거움을 경험했던
+                <strong>김현능</strong> 입니다.<br />
+                소통의 중요성을 알고, 적극적인 자세로 업무에 임하는
+                <strong>신입이 되겠습니다.</strong>
+              </p>
+            </div>
+            <div class="work__categories">
+              <button class="category__btn selected" data-filter="*">
+                All <span class="category__count">11</span>
+              </button>
+              <button class="category__btn" data-filter="publisher">
+                Publisher <span class="category__count">4</span>
+              </button>
+              <button class="category__btn" data-filter="front-end">
+                Front-end <span class="category__count">2</span>
+              </button>
+              <button class="category__btn" data-filter="design">
+                design <span class="category__count">4</span>
+              </button>
+            </div>
+            <div class="work__projects">
+              <a href="http://kimgemma.dothome.co.kr/webstandard/" class="project" target="_blank" data-type="publisher">
+                <img class="project__img" src="assets/img/work1.png" alt="webstandard" width="280px"/>
+                <div class="project__description">
+                  <h3>Standard Site</h3>
+                  <span>
+                    웹 표준 지침서를 준수하여 만든 웹 표준 사이트 입니다.
+                    브라우저별 크로스 브라우징과 Internet explore 버전별
+                    호환가능<br />
+                    #활용기술#HTML#CSS#JAVASCRIPT
+                  </span>
+                </div>
+              </a>
+              <a
+                href="http://kimgemma.dothome.co.kr/responsive/"
+                class="project"
+                data-type="Publisher"
+                target="_blank"
+              >
+              <img class="project__img" src="assets/img/work2.png" alt="responsive" />
+                <div class="project__description">
+                  <h3>Responsive site</h3>
+                  <span>
+                    미디어 쿼리를 이용한 반응형 웹사이트 입니다.슬라이드, SNS
+                    공유, 탭, 동영상 기능등 다양한 스크립트를 특징으로한 사이트
+                    입니다. 크로스 브라우징은 익스플로러 8버전부터
+                    지원합니다.<br />
+                    #활용기술#HTML#CSS#JAVASCRIPT
+                  </span>
+                </div>
+              </a>
+              <a href="http://kimgemma.dothome.co.kr/megabox/" target="_blank" class="project" data-type="publisher">
+                <img class="project__img" src="assets/img/work3.png" alt="megabox" width="280px" />
+                <div class="project__description">
+                  <h3>Megabox site</h3>
+                  <span>
+                    메가박스 웹 사이트 입니다. 이미지 슬라이더, 모달 등 다양한
+                    스크립트를 활용하여 반응형으로 작업하였습니다.
+                    Swiper플러그인을 사용한 배너와 차트 탭 등 CSS효과를
+                    주었습니다.<br />
+                    #활용기술#HTML#CSS#JAVASCRIPT#PHOTOSHOP
+                  </span>
+                </div>
+              </a>
+              <a href="http://kimgemma.dothome.co.kr/hyundai/"  class="project" data-type="publisher" target="_blank">
+                <img class="project__img" src="assets/img/work4.png" alt="hyundai"  width="280px" />
+                <div class="project__description">
+                  <h3>Hyundai site</h3>
+                  <span>
+                    현대백화점 홈페이지를 사이트입니다. swiper를 이용해 이미지
+                    슬라이더를 작업하며, 디자인 작업도 하였습니다.<br />
+                    #활용기술#HTML#CSS#JAVASCRIPT#PHOTOSHOP
+                  </span>
+                </div>
+              </a>
+              <a href="http://kimgemma.dothome.co.kr/hanacard/" class="project" data-type="publisher" target="_blank">
+                <img class="project__img" src="assets/img/work5.png" alt="hanacard" width="280px" />
+                <div class="project__description">
+                  <h3>Hanacard site</h3>
+                  <span>
+                    하나카드 웹 사이트 입니다. swiper를 이용해 이미지 슬라이더를
+                    작업하며, 디자인 작업도 하였습니다.<br />
+                    #활용기술#HTML#CSS#JAVASCRIPT#PHOTOSHP#FIGMA
+                  </span>
+                </div>
+              </a>
+              <a href="http://kimgemma.dothome.co.kr/memolist" class="project" data-type="front-end" target="_blank">
+                <img class="project__img" src="assets/img/memolist.png" alt="memolist" width="280px" />
+                <div class="project__description">
+                  <h3>Memo List</h3>
+                  <span>
+                    HTML, CSS, 순수 자바스크립트를 활용하여 메모장을 구현한
+                    프로젝트 입니다. 1.input 에서 텍스트를 타이핑 할 수 있는
+                    기능 2. + 버튼 클릭과 엔터키를 쳤을 때 리스트 등록 기능 3.
+                    스크롤링 되는 리스트에 표기되는 기능 4. 리스트 삭제 기능을
+                    구현했습니다.
+                  </span>
+                </div>
+              </a>
+              <a href="http://kimgemma.dothome.co.kr/game/" class="project" data-type="front-end" target="_blank">
+                <img class="project__img" src="assets/img/game.png" alt="game" width="280px" />
+                <div class="project__description">
+                  <h3>Game</h3>
+                  <span>
+                    순수 자바스크립트로 작성하고 클래스, 빌더 패턴으로
+                    리팩토링하여 완성한 프로젝트 게임입니다. 팝업 클래스, 필드
+                    클래스, 사운드 클래스 등 클래스와 모듈을 이용해서 작은
+                    컴포넌트 단위로 나누었고 빌더 패턴으로 깨끗하게 리팩토링
+                    했습니다.
+                  </span>
+                </div>
+              </a>
+              <a href="http://kimgemma.dothome.co.kr/seoulmilk/" class="project" data-type="design" target="_blank">
+                <img class="project__img" src="assets/img/work6.png" alt="seoul milk" width="280px" />
+                <div class="project__description">
+                  <h3>Seoul milk site</h3>
+                  <span>
+                    서울우유 홈페이지를 포토샵을 이용하여 제작하였습니다.<br />
+                    #활용기술#HTML#CSS#PHOTOSHP#FIGMA
+                  </span>
+                </div>
+              </a>
+              <a href="http://kimgemma.dothome.co.kr/banilaco/" class="project" data-type="design" target="_blank">
+                <img class="project__img" src="assets/img/work7.png" alt="banilaco" width="280px" />
+                <div class="project__description">
+                  <h3>Banilaco site</h3>
+                  <span>
+                    바닐라코 홈페이지를 포토샵을 이용하여 제작하였습니다.<br />
+                    #활용기술#HTML#CSS#PHOTOSHP#FIGMA
+                  </span>
+                </div>
+              </a>
+              <a href="http://kimgemma.dothome.co.kr/medical/" class="project" data-type="design" target="_blank">
+                <img class="project__img" src="assets/img/work8.png" alt="medipet" width="280px" />
+                <div class="project__description">
+                  <h3>Medipet site</h3>
+                  <span>
+                    메디펫 동물병원 홈페이지를 포토샵을 이용하여
+                    제작하였습니다.<br />
+                    #활용기술#HTML#CSS#PHOTOSHP#FIGMA
+                  </span>
+                </div>
+              </a>
+              <a href="http://kimgemma.dothome.co.kr/design_page/" class="project" data-type="design" target="_blank">
+                <img class="project__img" src="assets/img/work9.png" alt="design" width="280px" />
+                <div class="project__description">
+                  <h3>Design</h3>
+                  <span>
+                    포토샵으로 상세페이지와 포스터를 제작하였고, 일러스트를
+                    이용하여 그림을 제작하였습니다.<br />
+                    #활용기술#HTML#CSS#PHOTOSHP#FIGMA#ILLUSTRATOR
+                  </span>
+                </div>
+              </a>
+            </div>
+           </div>
+          </div>
+        </div>
+      </section>
+      <!-- //section6 -->
+
+      <section id="section7">
+        <div class="container">
+          <div class="sec7">
+            <div class="atext">
+              <span class="t3">portfolio</span>
+              <h3>animation</h3>
+              <p>
+                안녕하세요 새로운 것을 배우는걸 좋아하고,<br />도전하는것을
+                좋아하는 <strong>김현능</strong> 입니다.
+              </p>
+            </div>
+          </div>
+        </div>
+        <nav class="menu">
+          <div class="menu__item">
+            <a class="menu__item-link a1">tail animation</a>
+
+            <div class="marquee2">
+              <div class="marquee__inner" aria-hidden="true">
+                <span>tail animation</span>
+                <span>tail animation</span>
+                <span>tail animation</span>
+                <span>tail animation</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu__item">
+            <a class="menu__item-link a2">dot animation</a>
+            <div class="marquee2">
+              <div class="marquee__inner" aria-hidden="true">
+                <span>dot animation</span>
+                <span>dot animation</span>
+                <span>dot animation</span>
+                <span>dot animation</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu__item">
+            <a class="menu__item-link a3">wave animation</a>
+            <div class="marquee2">
+              <div class="marquee__inner" aria-hidden="true">
+                <span>wave animation</span>
+                <span>wave animation</span>
+                <span>wave animation</span>
+                <span>wave animation</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu__item">
+            <a class="menu__item-link a4">Cube animation</a>
+            <div class="marquee2">
+              <div class="marquee__inner" aria-hidden="true">
+                <span>Cube animation</span>
+                <span>Cube animation</span>
+                <span>Cube animation</span>
+                <span>Cube animation</span>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="ani_locate1">
+          <div class="ani1">
+            <div class="circle">
+              <div></div>
+            </div>
+            <div class="circle">
+              <div></div>
+            </div>
+            <div class="circle">
+              <div></div>
+            </div>
+            <div class="circle">
+              <div></div>
+            </div>
+            <div class="circle">
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <div class="ani_locate2">
+          <div class="ani2">
+            <div class="loading">
+              <div class="circle1"></div>
+              <div class="circle2"></div>
+            </div>
+            <div class="loading2">
+              <div class="circle1"></div>
+              <div class="circle2"></div>
+            </div>
+          </div>
+        </div>
+        <div class="ani_locate3">
+          <div class="ani3">
+            <div class="circles">
+              <div class="row">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+              <div class="row">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+              <div class="row">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+              <div class="row">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+              <div class="row">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+              <div class="row">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+              <div class="row">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+              <div class="row">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+              <div class="row">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+              <div class="row">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ani_locate4">
+          <div class="ani4">
+            <div class="cube">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //section7 -->
+
+      <section id="section9">
+        <div class="container">
+          <div class="sec9">
+            <div class="contact_t">
+              <h1>contact me</h1>
+              <p>
+                새로운 관련 기술과 비즈니스에 대한 지적호기심<br />
+                정해진 기간 내에 완성도 높은 결과물을 만들어 낼 수 있는
+                책임감<br />
+                커뮤니케이션이 탑재된 저에게 관심이 생기신 분들은 이메일로
+                연락주시면 상세한 이력서 보내드리겠습니다.<br />당신과 함께
+                성장하고 싶습니다.
+              </p>
+            </div>
+            <div class="infor2">
+              <h2><span>WORK INQUIRIES</span></h2>
+              <ul class="myinfo">
+                <li><i class="fa fa-envelope-o"></i> ayuhyun@naver.com</li>
+                <li>
+                  <i class="fa fa-map-marker"></i> 대전시 서구 괴정로 198번길
+                </li>
+                <li><i class="fa fa-phone"></i> 010-3035-4180</li>
+                <li>
+                  <a href="https://github.com/kim-gemma" target="_blank">
+                    <i class="fa fa-github-alt"></i> github.com/kim-gemma</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div id="form">
+              <form action="https://formspree.io/f/mdoprvyy" method="POST">
+                <input
+                  type="email"
+                  name="_replyto"
+                  placeholder="Please enter your e-mail"
+                />
+                <textarea
+                  name="message"
+                  placeholder="Please enter your message"
+                ></textarea>
+                <button type="submit">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //section9 -->
+    </div>
+    <!-- //contents -->
+    <div class="cursor"></div>
+
+    <button class="arrow-up">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- //arrow up -->
+    <script
+      src="https://kit.fontawesome.com/9eb162ac0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/html5shiv.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/intro.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
