@@ -36,6 +36,7 @@ let splite5 = $(".contact_t h1").text().split("").join("</span><span>")
 splite5 = "<span>" + splite5 + "</span>"
 $(".contact_t h1").html(splite5)
 
+
 $(window).scroll(function () {
   let wScroll = $(window).scrollTop()
   let wOffset = $("#section1").offset().top
@@ -181,7 +182,7 @@ $(window).scroll(function () {
     )
   }
 
-  // Projects
+// Projects
 const workBtnContainer = document.querySelector('.work__categories');
 const projectContainer = document.querySelector('.work__projects');
 const projects = document.querySelectorAll('.project');
@@ -212,31 +213,7 @@ workBtnContainer.addEventListener('click', (e) => {
   }, 300);
 });
 
-  //section7 animation
-  if (
-    $(window).scrollTop() >
-    $(".sec7").offset().top - $(window).height() / 2
-  ) {
-    let tl2 = new TimelineMax()
-    tl2.staggerTo(
-      ".atext .t3",
-      0.8,
-      { opacity: 1, y: 0, ease: Back.easeOut.config(1.7) },
-      0.09
-    )
-    tl2.staggerTo(
-      ".atext h3 span",
-      0.8,
-      { opacity: 1, y: 0, ease: Back.easeOut.config(1.7) },
-      0.09
-    )
-    tl2.staggerTo(
-      ".atext p",
-      0.8,
-      { opacity: 1, y: 0, ease: Back.easeOut.config(1.7) },
-      0.09
-    )
-  }
+  
   //section4 animation
   if (
     $(window).scrollTop() >
@@ -263,44 +240,32 @@ workBtnContainer.addEventListener('click', (e) => {
     )
   }
 
-  //section5 skillbar
-  const $section7 = $("#section5")
-  function skillBar() {
-    $section6.find(".sec5 .box").each(function () {
-      const $current = $(this)
-      const $currentPercent = $current.find(".percentNum")
-      const $targetData = $currentPercent.attr("data-percent")
-      const $water = $current.find(".water")
-      let now
-
-      $({ rate: 0 }).animate(
-        { rate: $targetData },
-        {
-          duration: 2000,
-          progress: function () {
-            now = this.rate
-            $currentPercent.text(Math.ceil(now))
-            $water.css({ transform: "translate(0px," + now + "px)" })
-          },
-        }
-      )
-
-      $({ rate: 100 }).animate(
-        { rate: 100 - $targetData },
-        {
-          duration: 2000,
-          progress: function () {
-            now = this.rate
-            $water.css({ transform: "translate(0px," + now + "%)" })
-          },
-        }
-      )
-    })
-  }
-  //skillbar each
-  $section7.find(".bottle .box.c .water").mouseover(function () {
-    $(this).addClass("hover")
-  })
+  //section7 animation
+  if (
+    $(window).scrollTop() >
+    $(".sec7").offset().top - $(window).height() / 2
+  ) {
+    let tl2 = new TimelineMax()
+    tl2.staggerTo(
+      ".atext .t3",
+      0.8,
+      { opacity: 1, y: 0, ease: Back.easeOut.config(1.7) },
+      0.09
+    )
+    tl2.staggerTo(
+      ".atext h3 span",
+      0.8,
+      { opacity: 1, y: 0, ease: Back.easeOut.config(1.7) },
+      0.09
+    )
+    tl2.staggerTo(
+      ".atext p",
+      0.8,
+      { opacity: 1, y: 0, ease: Back.easeOut.config(1.7) },
+      0.09
+    )
+  } 
+  
   $(document).ready(function () {
     $(".a1").mouseover(function () {
       $(".ani1").show()
@@ -327,26 +292,11 @@ workBtnContainer.addEventListener('click', (e) => {
       $(".ani4").hide()
     })
 
-    //section8 스크립트 - 가로 슬라이드
-    if (wScroll > $("#section7").offset().top) {
-      $("#section8").addClass("visible")
-    } else {
-      $("#section8").removeClass("visible")
-    }
 
-    var offsetLeft = wScroll - $("#section8").offset().top
-    if (wScroll > $("#section8").offset().top + 1000) {
-      gsap.to($("#section8").find(".sec8"), { left: -offsetLeft + 1000 + "px" })
-    } else {
-      $("#section8")
-        .find(".sec8")
-        .css("left", +0 + "px")
-    }
-
-    //section9 animation
+    //section8 animation
     if (
       $(window).scrollTop() >
-      $(".sec9").offset().top - $(window).height() / 2
+      $(".sec8").offset().top - $(window).height() / 2
     ) {
       let tl2 = new TimelineMax()
       tl2.staggerTo(
@@ -375,39 +325,8 @@ workBtnContainer.addEventListener('click', (e) => {
       )
     }
   })
+});
 
-  $(".hover").mouseleave(function () {
-    $(this).removeClass("hover")
-  })
-
-  //Arrow-up
-  const header = document.querySelector("#header")
-  const headerHeight = header.getBoundingClientRect().height
-  const arrowUp = document.querySelector(".arrow-up")
-  document.addEventListener("scroll", () => {
-    if (window.scrollY > headerHeight / 2) {
-      arrowUp.classList.add("visible")
-    } else {
-      arrowUp.classList.remove("visible")
-    }
-  })
-
-  arrowUp.addEventListener("click", () => {
-    scrollIntoView("#header")
-  })
-
-  function scrollIntoView(selector) {
-    const scrollTo = document.querySelector(selector)
-    scrollTo.scrollIntoView({ behavior: "smooth" })
-  }
-
-  $(".btn").mouseover(function () {
-    $(".cursor").addClass("active")
-  })
-  $(".btn").mouseleave(function () {
-    $(".cursor").removeClass("active")
-  })
-})
 //cursor controll
 const cursor = document.querySelector(".cursor")
 
@@ -416,4 +335,4 @@ document.addEventListener("mousemove", (e) => {
     "style",
     "top: " + (e.pageY - 10) + "px; left:" + (e.pageX - 10) + "px;"
   )
-})
+});
